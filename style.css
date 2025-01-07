@@ -13,7 +13,8 @@
     padding: 0;
 }
 .banner-container{
-    background-image: url('assets/hero-bg.png');
+   margin-bottom: 160px;
+    background: linear-gradient(180deg, #090909 2.88%, rgba(16, 16, 16, 0) 101.03%), url('assets/hero-bg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -37,10 +38,26 @@
 }
 .banner h1{
    font-size: 64px; 
+   margin: 16px 0 24px 0;
+   line-height: 80px;
 }
 .banner p{
  font-size: 18px;
+ line-height: 24px;
+ margin-bottom: 32px;
 }
 .banner button{
     font-size: 20px;
+    background-color: #52C303;
+    padding: 18px 32px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    transition: .3s;
+
+}
+.banner button:hover{
+    background-color: white;
+    color: #52C303;
+   
 }
