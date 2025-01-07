@@ -13,7 +13,7 @@
     padding: 0;
 }
 .banner-container{
-   margin-bottom: 160px;
+   margin-bottom: 120px;
     background: linear-gradient(180deg, #090909 2.88%, rgba(16, 16, 16, 0) 101.03%), url('assets/hero-bg.png');
     background-size: cover;
     background-position: center;
@@ -26,25 +26,31 @@
     text-align: center;
 
 }
-.banner h5, h1, p{
+.banner h5 h1 p{
     /* color: ; */
-    color: rgb(255, 255, 255);
+    
 
 
 
 }
 .banner h5{
+    color: rgb(255, 255, 255);
     font-size: 32px;
+    font-weight:600;
 }
 .banner h1{
+    color: rgb(255, 255, 255);
    font-size: 64px; 
    margin: 16px 0 24px 0;
    line-height: 80px;
+   font-weight: 700;
 }
 .banner p{
+    color: rgb(255, 255, 255);
  font-size: 18px;
  line-height: 24px;
  margin-bottom: 32px;
+ font-weight: 500;
 }
 .banner button{
     font-size: 20px;
@@ -54,10 +60,58 @@
     border: none;
     color: white;
     transition: .3s;
+    font-weight: 600;
 
 }
 .banner button:hover{
     background-color: white;
     color: #52C303;
    
+}
+.card-container{
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-head{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.head{
+
+}
+.head p{
+    font-size: 24px;
+    font: 500px;
+    margin-bottom: 16px;
+}
+.head h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+.card-box{
+    display: flex;
+    margin-top: 48px;
+    gap: 24px;
+}
+.box{}
+.box-info{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 32px;
+}
+.box h3{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 24px 0;
+}
+.box-disc{
+    font-size: 18px;
+    font-weight: 500;
+    color: #101010;
+    line-height: 28px;
+    opacity: 0.7;
 }
